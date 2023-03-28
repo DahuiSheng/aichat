@@ -1,3 +1,4 @@
+import Header from './Header'
 import './globals.css'
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function RootLayout({
     <html lang="ja">
       <head />
       <body className='min-h-screen bg-white md:bg-gray-100'>
+        <Header />
         {children}
       </body>
     </html>

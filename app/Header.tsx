@@ -7,6 +7,7 @@ const Header = () => {
             <h1 className="text-lg md:text-3xl font-semibold px-4 whitespace-pre-line">
                 {siteTitle}
             </h1>
+            <h1>Hello</h1>
         </header>
     );
 };
