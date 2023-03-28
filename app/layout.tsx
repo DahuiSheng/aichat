@@ -1,4 +1,5 @@
 import Header from './Header'
+import Main from './Main'
 import './globals.css'
 
 export const metadata = {
@@ -16,8 +17,10 @@ export default function RootLayout({
       <head />
       <body className='min-h-screen bg-white md:bg-gray-100'>
         <Header />
-        {children}
+        <Main>
+          {children}
+        </Main>
       </body>
     </html>
-  )
+  );
 }
