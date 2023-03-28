@@ -1,5 +1,8 @@
 
 import { motion } from "framer-motion"
+import { useEffect, useState } from "react";
+import { Message } from "../types/custom";
+import { Avatar, Flex } from "@chakra-ui/react";
 
 const Chat = ({ content, role }: Message) => {
     const [chatMessage, setChatMessage] = useState("");
